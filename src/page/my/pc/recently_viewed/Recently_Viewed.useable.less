@@ -1,0 +1,126 @@
+.history {
+  padding: 65px 100px 60px 0;
+  .del-layout {
+    text-align: right;
+    .ant-btn:hover, .ant-btn:focus {
+      color: rgba(0, 0, 0, 0.65);
+      background-color: #fff;
+      border-color: #d9d9d9;
+    }
+    span {
+      cursor: pointer;
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .ant-checkbox-inner {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 16px;
+      height: 16px;
+      /* text-align: center; */
+      /* line-height: 28px; */
+      border: 1px solid #d9d9d9;
+      border-radius: 2px;
+      background-color: #fff;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      border-collapse: separate;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+      background-color: #000000;
+      border-color: #000000;
+    }
+    .ant-checkbox-wrapper {
+      font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 14px;
+      font-variant: tabular-nums;
+      line-height: 1.5;
+      color: rgba(0, 0, 0, 0.65);
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: unset;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .ant-checkbox-inner:after {
+      -webkit-transform: rotate(45deg) scale(0);
+      -ms-transform: rotate(45deg) scale(0);
+      transform: rotate(45deg) scale(0);
+      position: absolute;
+      left: 4.571429px;
+      top: 2px;
+      display: table;
+      width: 5.714286px;
+      height: 8.142857px;
+      border: 1px solid #fff;
+      border-top: 0;
+      border-left: 0;
+      content: ' ';
+      -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+      -o-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+      transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+      opacity: 0;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner:after {
+      -webkit-transform: rotate(45deg) scale(1);
+      -ms-transform: rotate(45deg) scale(1);
+      transform: rotate(45deg) scale(1);
+      position: absolute;
+      display: table;
+      border: 1px solid #fff;
+      border-top: 0;
+      border-left: 0;
+      content: ' ';
+      -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+      -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+      transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+      opacity: 1;
+    }
+
+
+  }
+  .title {
+    width: 191px;
+    height: 50px;
+    background: #ffffff;
+    font-size: 18px;
+    font-family: DINAlternate-Bold,'Microsoft Yahei', '微软雅黑',sans-serif;
+    font-weight: bold;
+    color: #999999;
+    line-height: 50px;
+  }
+
+  .pagination {
+    margin: 40px 0;
+    float: right;
+    .ant-pagination-item-active {
+      border-color: #000;
+      font-weight: 500;
+    }
+    .ant-pagination-item-active a {
+      color: #000;
+    }
+    .ant-pagination-item-active a:hover {
+      color: #000;
+    }
+    .ant-pagination-item:focus a, .ant-pagination-item:hover a {
+      color: #000;
+    }
+    .ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-link-icon, .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-link-icon {
+      display: inline-block;
+      transform: scale(1) rotate(0deg);
+      color: #000;
+      letter-spacing: -1px;
+      transition: all 0.2s;
+    }
+  }
+
+}

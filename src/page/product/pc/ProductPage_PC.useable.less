@@ -1,0 +1,256 @@
+.product-pc {
+  min-height: 775px;
+  padding: 60px 100px 60px 100px;
+  .header-product {
+    height: 600px;
+    position: relative;
+    .carousel-vertical-item-layout {
+      width: 80px;
+      height: 440px;
+      position: relative;
+      float: left;
+      .carousel-vertical-item {
+        cursor: pointer;
+        width: 80px;
+        height: 80px;
+        background: #ffffff;
+        padding: 6px;
+        text-align: center;
+        border: 1px solid rgba(221, 221, 221, 1);
+        img {
+          //width: 100%;
+          height: 100%;
+        }
+      }
+      .select-rect {
+        width: 80px;
+        height: 30px;
+        background: rgba(0, 0, 0, 1);
+        opacity: 0.5;
+        line-height: 30px;
+        text-align: center;
+      }
+      .rect-none {
+        display: none;
+      }
+      .top-rect {
+        position: absolute;
+        top: 0;
+      }
+      .layout-group {
+        position: relative;
+      }
+      .img-up-layout {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        width: 100%;
+        height: 30px;
+      }
+      .bottom-rect {
+        position: absolute;
+        bottom: 0;
+      }
+      .margin-top-40 {
+        margin-top: 40px;
+      }
+      .rect-carousel {
+        border: 1px solid rgba(0, 0, 0, 1);
+      }
+    }
+    .carousel-img {
+      width: 448px;
+      float: left;
+      height: 448px;
+      background: rgba(255, 255, 255, 1);
+      border: 1px solid rgba(221, 221, 221, 1);
+      margin-left: 60px;
+      padding: 25px;
+      text-align: center;
+      img {
+        //width: 100%;
+        height: 100%;
+      }
+    }
+    .product-params {
+      float: left;
+      margin-left: 72px;
+      position: relative;
+      .brand {
+        height: 40px;
+        font-size: 36px;
+        font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 1);
+        line-height: 40px;
+      }
+      .product-title {
+        margin-top: 20px;
+        height: 28px;
+        font-size: 24px;
+        font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 1);
+        line-height: 28px;
+      }
+      .money-layout {
+        margin-top: 20px;
+        .money {
+          height: 50px;
+          font-size: 36px;
+          font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+          font-weight: bold;
+          color: rgba(0, 0, 0, 1);
+          line-height: 50px;
+        }
+        .line-money {
+          margin-left: 20px;
+          height: 24px;
+          font-size: 24px;
+          font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+          font-weight: bold;
+          color: rgba(153, 153, 153, 1);
+          line-height: 24px;
+          text-decoration: line-through
+        }
+
+      }
+      .love {
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .color-layout {
+        margin-top: 24px;
+        font-size: 20px;
+        font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 1);
+        line-height: 20px;
+        .color-text {
+          float: left;
+          line-height: 44px;
+        }
+        .color-item {
+          overflow: hidden;
+          width: 422px;
+          margin: 0 0 0 111px;
+          .product-color-layout-select {
+            width: 50px;
+            height: 50px;
+            padding: 1px;
+            /* line-height: 50px; */
+            border: 2px solid #000;
+            text-align: center;
+          }
+          .product-color-layout {
+            width: 50px;
+            height: 50px;
+            padding: 2px;
+            /* line-height: 50px; */
+            text-align: center;
+          }
+          .product-color {
+            cursor: pointer;
+            width: 44px;
+            height: 44px;
+          }
+        }
+
+      }
+      .size-layout {
+        margin-top: 20px;
+        .size-text {
+          float: left;
+          height: 20px;
+          font-size: 20px;
+          font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+          font-weight: bold;
+          color: rgba(0, 0, 0, 1);
+          line-height: 44px;
+        }
+        .size-item {
+          margin: 0 0 0 111px;
+          width: 422px;
+          overflow: hidden;
+          text-align: center;
+          .size-item-text {
+            cursor: pointer;
+            font-size: 20px;
+            font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+            font-weight: bold;
+            color: rgba(153, 153, 153, 1);
+            line-height: 44px;
+            width: 60px;
+            height: 44px;
+            background: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(204, 204, 204, 1);
+          }
+          .select-size {
+            width: 60px;
+            cursor: pointer;
+            height: 44px;
+            background: rgba(255, 255, 255, 1);
+            border: 2px solid rgba(0, 0, 0, 1);
+            font-size: 20px;
+            font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 1);
+            line-height: 44px;
+          }
+        }
+
+      }
+      .provider-item {
+        margin-top: 24px;
+        height: 20px;
+        font-size: 20px;
+        font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+        font-weight: bold;
+        color: rgba(153, 153, 153, 1);
+        line-height: 20px;
+      }
+      .button-click-detail {
+        margin-top: 40px;
+        cursor: pointer;
+        width: 340px;
+        height: 70px;
+        background: rgba(0, 0, 0, 1);
+        font-size: 28px;
+        font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        line-height: 70px;
+        text-align: center;
+      }
+    }
+  }
+  .margin-top-10 {
+    margin-top: 10px;
+  }
+  .product-detail-desc {
+    font-size: 28px;
+    font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    line-height: 28px;
+    .sell-point {
+      margin-top: 20px;
+      height: 16px;
+      font-size: 16px;
+      font-family: DINAlternate-Bold, 'Microsoft Yahei', '微软雅黑', sans-serif;
+      font-weight: 400;
+      color: #999999;
+      line-height: 16px;
+    }
+  }
+  .product-detail-imgs {
+    margin-top: 60px;
+    img {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}

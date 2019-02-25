@@ -1,0 +1,183 @@
+.navigation {
+  background: #ffffff;
+  .filter-text {
+
+    font-size: 28px;
+    padding: 10px 0 10px 0;
+    z-index: 120;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .text-right {
+    text-align: right;
+  }
+  .filter-index {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 88px;
+    width: 100%;
+    z-index: 500;
+  }
+
+}
+
+.ant-drawer {
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 100%;
+  z-index: 1000;
+  .key-text {
+    font-family: Kalinga, serif;
+    font-size: 24px;
+    color: black;
+    margin-left: 10px;
+  }
+  .text-all {
+    float: right;
+  }
+  .container {
+    padding: 20px 20px 0;
+  }
+  .price {
+    padding: 20px;
+    position: relative;
+    .input-filter {
+      height: 60px;
+      width: 227px;
+    }
+    .input-frame {
+      position: absolute;
+      top: 25px;
+      font-size: 24px;
+      //width: 158px;
+      left: 25px;
+    }
+    input:focus {
+      outline: none; // 如何把蓝色去掉？
+      border: 1px solid #ffffff; // 如何改成别的颜色？
+    }
+    input {
+      font-size: 24px;
+      font-family: Kalinga, serif;
+      width: 158px;
+      height: 50px;
+      text-align: center;
+    }
+    .margin-left-120{
+      margin-left: 120px;
+    }
+  }
+
+  .all-page {
+    .title {
+      font-family: Kalinga, serif;
+      text-align: center;
+      height: 88px;
+      background: #ffffff;
+      line-height: 88px;
+      font-size: 24px;
+
+    }
+    .item-title {
+      height: 30px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+      color: rgb(255, 177, 54);
+      font-family: nexal, serif;
+
+    }
+    .item {
+      font-family: nexal, serif;
+      height: 90px;
+      line-height: 90px;
+      font-size: 30px;
+      background: #ffffff;
+      padding: 0 20px;
+      color: black;
+      /* border-bottom: 1px solid; */
+      margin-bottom: 2px;
+    }
+    .icon {
+      width: 34px;
+      height: 34px;
+      margin-top: 28px;
+      float: right;
+    }
+  }
+
+  .key-text-margin-20 {
+    margin-top: 20px;
+  }
+  .key-text-margin-10 {
+    margin-top: 10px;
+  }
+  .ant-drawer-body {
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  .ant-tag {
+    font-family: Kalinga, serif;
+    font-size: 24px;
+    font-variant: tabular-nums;
+    line-height: 60px;
+    height: 60px;
+    color: rgba(0, 0, 0, 0.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px;
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -o-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    opacity: 1;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .ant-tag-checkable-checked {
+    background-color: rgb(255, 177, 54);
+    color: white;
+  }
+  .ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+    color: black;
+  }
+  .ant-drawer-content {
+    position: relative;
+    background-color: #f6f6f6;
+    border: 0;
+    background-clip: padding-box;
+    z-index: 1;
+  }
+  .float-button {
+    position: fixed;
+    bottom: 0;
+    height: 88px;
+    width: 100%;
+    z-index: 250;
+    .button-style {
+      float: left;
+      width: 281px;
+      text-align: center;
+      line-height: 88px;
+      font-size: 34px;
+      color: white;
+    }
+    .reset {
+      background: #000000;
+
+    }
+    .confirm {
+      background-color: rgb(255, 177, 54);
+    }
+  }
+}

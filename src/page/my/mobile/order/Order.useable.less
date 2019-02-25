@@ -1,0 +1,82 @@
+.order {
+  .item {
+    margin: 0 30px;
+    background: #ffffff;
+    border: 2px solid #c0c0c0;
+    border-radius: 10px;
+    padding: 2px 30px 30px 30px;
+    .brand-name {
+      font-size: 24px;
+      line-height: 90px;
+      color: black;
+    }
+    .order-time {
+      font-size: 20px;
+      color: rgb(192, 192, 192);
+      line-height: 60px;
+    }
+    .line {
+      height: 1px;
+      background: #c0c0c0;
+    }
+    .content {
+      background: #f6f6f6;
+      position: relative;
+      height: 180px;
+      border-radius: 10px;
+      border: 4px double #fff;
+      .content-text {
+        //width: 416px;
+        height: 180px;
+        font-size: 30px;
+        .product-name {
+          width: 530px;
+          display: inline-block;
+          span{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            /*! autoprefixer: off */
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            /*! autoprefixer: on */
+          }
+        }
+        .num-or-price {
+          display: inline-block;
+          margin-right: 10px;
+        }
+      }
+      .display-table {
+        display: table;
+        width: 100%;
+        .display-cell-center {
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+      .inline {
+        float: left;
+        .img {
+          width: 111px;
+          height: 111px;
+          margin: 30px;
+        }
+        .money {
+          color: rgb(255, 177, 54);
+        }
+      }
+    }
+    .text-right {
+      float: right;
+    }
+
+  }
+  .total-text {
+    text-align: right;
+    font-size: 30px;
+  }
+  .margin-top-30 {
+    margin-top: 30px;
+  }
+}
